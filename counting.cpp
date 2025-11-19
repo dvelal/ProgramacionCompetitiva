@@ -12,7 +12,7 @@ int main(){
     sort(num.begin(), num.end());
     map<long,long> pares;
     long cont = 0;
-    pares.emplace(num[0],0);
+    pares[num[0]] = 0;
     long aux = num[0];
     cout << num[0] << " ";
     for(long i = 1; i < num.size(); i++){
